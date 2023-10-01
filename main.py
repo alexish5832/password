@@ -20,6 +20,6 @@ async def heh(ctx, count_heh = 5):
 
 @bot.command()
 async def adios(ctx, count_adios = 5):
-    await ctx.send("adios_amigo" * count_heh)
+    await ctx.send("adios_amigo" * count_adios)
 
 bot.run("MTE1ODAxOTQ2MTM3MTEzNDA5Mw.Gq1E5b.sSe7Aa0JDMYTbgn34BFZ3BNLb7OstTsIlhIiRY")
